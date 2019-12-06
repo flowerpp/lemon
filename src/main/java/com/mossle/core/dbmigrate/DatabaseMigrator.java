@@ -37,6 +37,7 @@ public class DatabaseMigrator implements ApplicationContextAware {
 
             Flyway flyway = new Flyway();
             flyway.setDataSource(dataSource);
+
             flyway.clean();
         }
 

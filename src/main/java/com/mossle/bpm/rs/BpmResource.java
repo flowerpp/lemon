@@ -773,6 +773,7 @@ public class BpmResource {
 
         return convertActivityDtos(processEngine.getManagementService()
                 .executeCommand(cmd));
+
     }
 
     @Path("previous")
